@@ -1,3 +1,5 @@
+# 修改内容diff
+```diff
 weiqifa@bsp-ubuntu1804:~/is13-sdk$ git diff external/tinyalsa/
 diff --git a/external/tinyalsa/Android.bp b/external/tinyalsa/Android.bp
 old mode 100644
@@ -113,3 +115,4 @@ index 4ae321bf93..de0deab9d0
                ~O_NONBLOCK) < 0) {
          oops(pcm, errno, "failed to reset blocking mode '%s'", fn);
 (END)
+```
